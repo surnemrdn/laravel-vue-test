@@ -95,7 +95,7 @@ class PropertiesTableSeeder extends Seeder
             ]);
             $totalProperties++;
 
-        } while ($totalProperties <= 100000);
+        } while ($totalProperties < 100000);
         die('okk');
     }
 }
